@@ -8,7 +8,7 @@ class accesosControler extends CI_Controller {
     function __construct()
     {
         parent::__construct();
-        $this->load->model('consultas');
+        $this->load->model('obtDatos');
     }
 
     //--------------------------------------------------------------
