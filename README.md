@@ -1,4 +1,4 @@
-# calificador
+# Calificador - PERLAS
 Rules for write code
   - Use camelcase for write functions
   - Use lowercase for write variables
