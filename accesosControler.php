@@ -35,4 +35,18 @@ class accesosControler extends CI_Controller {
 
 		  redirect( base_url(""), 'refresh');
     }
+	public function salirCalificador()
+    {
+        $this->session->sess_destroy();
+        redirect( base_url("jurado"));
+    }
+
+public function verificaAcceso()
+    {
+        $data = $this->session->userdata('logged_in');
+        // Fuera si no hay datos de session
+        if( $data == null ) $this->logout();
+        // Retorna datos de session si esta adentro
+        return $data;
+    }
 }
