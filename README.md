@@ -4,4 +4,4 @@ Rules for write code
   - Use lowercase for write variables
   - Use Comments for documentation
   - Indent use tabs
-Comments for documentation*
+  - Not repeat code or functions
